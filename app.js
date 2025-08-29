@@ -1,13 +1,47 @@
-console.log("hello world");
+console.log("Poyo!");
+async function cookieUpgrades() {
+  const response = await fetch("https://cookie-upgrade-api.vercel.app/api/upgrades");
+  console.log("HTTP Response:", response);
+  const json = await response.json();
+  console.log("JSON Data:", json);
+}
+
+cookieUpgrades();
+
+//Reminder to look at the foxes apis fetch to put images and data together
 
 //default starting values for cookie count and cps (either or)
 let cookieCount = 0;
 let cps = 0;
 
-// const stats = {
-//   cookieCount: 0,
-//   cps: 0,
-// };
+//'Cookie' button click listener & event handler
+const button = document.querySelector("button"); 
+button.addEventListener("click", function (event) {
+console.log("clicked")
+cookieCount++;
+});
+
+//Synchoronising local values
+function handleLocalStorageChange(event) {
+    if (event.key === "cookieCount") {
+        const newValue = event.newValue;
+        console.log('local storage cookieCount changed to: ${newValue}');
+    }
+}
+
+//Local Storage save clicks
+localStorage.setItem("cookieCount", "cps")
+let item = localStorage.getItem(cookieCount) 
+const form = document.querySelector("button");
+
+const currentCookies = localStorage.setItem("cookieCount")
+document.getElementById("cookieCount").value = currentCookies
+
+//CONST - provided code from Manny
+const stats = {
+  cookieCount: 0,
+  cps: 0,
+};
 
 //if there is data in local storage, update stats with this data, so the user picks it up where they left off
 

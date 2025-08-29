@@ -2,4 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hotpink;
+  color: white;
 }
+
+shop-container {
+    background-color: whitesmoke;
+}
+
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+h1 {
+font-weight: 300;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+img{
+    /* Will want to indent the spacing around this */
+    width: auto;
+    height: 50vh;
+    border-radius: 50px;
+    /*Style this after everything is done, also, edit the image down to a square */
+    
+}
+
+
+/* PLAY ABOUT WITH THE STYLING LATER */
+button{
+    border: none;
+    /* border-color: whitesmoke; */
+} 

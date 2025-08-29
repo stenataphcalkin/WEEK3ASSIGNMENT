@@ -23,3 +23,6 @@ What went really well and what could have gone better?
 🎯 Use local storage to save and restore the cookie count and relevant game information.
 🎯 Use setInterval to increment the cookie count and manage the game state each second.
 Managing the game state includes saving progress and updating the DOM.
+
+Lizard Photo by <a href="https://unsplash.com/@fukayamamo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">おにぎり</a> on <a href="https://unsplash.com/photos/yellow-gecko-cHP9WBFKm9o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      
