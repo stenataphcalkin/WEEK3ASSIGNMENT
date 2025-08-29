@@ -1,0 +1,20 @@
+{
+  "name": "week3assignment",
+  "version": "1.0.0",
+  "description": "Clicker game exercise",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stenataphcalkin/WEEK3ASSIGNMENT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stenataphcalkin/WEEK3ASSIGNMENT/issues"
+  },
+  "homepage": "https://github.com/stenataphcalkin/WEEK3ASSIGNMENT#readme"
+}
